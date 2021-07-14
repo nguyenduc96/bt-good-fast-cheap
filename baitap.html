@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chọn hai trong ba</title>
+</head>
+<style>
+body {
+    color: blue;
+    background-color: pink;
+    font-weight: bold;
+    font-style: initial;
+    font-size: 50px;
+}
+label:hover{
+    color: red;
+    background-color: blueviolet;
+}
+label:active{
+    color: aqua;
+    background-color: yellow;
+}
+</style>
+<body>
+<table>
+    <h1 style="font-size: 70px">Chọn 2 trong 3</h1>
+    <tr>
+        <label for="fast"><input type="checkbox" onclick="check('fast')" value="fast" id="fast"> Tình yêu</label>
+    </tr>
+    <br>
+    <tr>
+        <label for="good"><input type="checkbox" onclick="check('good')" value="good" id="good"> Sự nghiệp </label>
+    </tr>
+    <br>
+    <tr>
+        <label for="cheap"><input type="checkbox" onclick="check('cheap')" value="=cheap" id="cheap"> Gia đình</label>
+    </tr>
+</table>
+<script src="baitap.js"></script>
+</body>
+</html>
